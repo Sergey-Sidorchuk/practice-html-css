@@ -1,0 +1,84 @@
+.title {
+  color: chocolate;
+  font: normal 18px "Roboto", sans-serif;
+}
+em {
+  color: rgb(12, 224, 12);
+}
+
+li em {
+  color: red;
+}
+
+/* a:hover {
+  color: salmon;
+} */
+a:visited {
+  color: slategrey;
+}
+
+.flag {
+  height: 400px;
+  width: 600px;
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+}
+.circle {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: red;
+  margin: auto;
+  /* align-items: center; */
+  /* display: block; */
+  /* vertical-align: middle; */
+}
+.list-group {
+  /* border: solid 1px rgba(0, 0, 0, 0.125); */
+  padding: 0;
+}
+.list-group-item {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.125);
+  border-left: solid 1px rgba(0, 0, 0, 0.125);
+  border-right: solid 1px rgba(0, 0, 0, 0.125);
+  list-style: none;
+}
+.list-group-item:first-child {
+  border-top: solid 1px rgba(0, 0, 0, 0.125);
+}
+.list-group-item:hover {
+  background: #0d6efd;
+}
+
+.list-group-item:hover > a {
+  color: white;
+}
+.card-img-top {
+  width: 350px;
+}
+.card {
+  width: 350px;
+  border: solid 1px grey;
+  border-radius: 2px;
+}
+.btn {
+  background: #e45d80;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.card-body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 10px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 20px;
+  text-align: start;
+}
+.card-title {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
